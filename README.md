@@ -25,6 +25,9 @@ Throughout the project, I executed the following key steps:
 
 The output of the script, as per the provided code, comprises a collection of dictionaries, each containing pertinent information about the highest-rated beers across various styles. The extracted data is presented in the format exemplified earlier.
 
+<img width="1164" alt="Screenshot 2023-08-25 at 10 01 25 AM" src="https://github.com/bennettnottingham/Untappd-Scraper/assets/65934399/243edc27-47e9-41e6-9ac4-d9381577a11a">
+
+
 **Data Volume:**
 
 My implementation successfully procured data for over 11,000 rows of top-rated beers. This extensive dataset encompasses a wide range of styles and breweries.
