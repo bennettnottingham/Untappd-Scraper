@@ -14,7 +14,7 @@ def get_beer_data(beer_type):
         'sec-fetch-dest': 'image',
         'sec-fetch-mode': 'no-cors',
         'sec-fetch-site': 'cross-site',
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
+        'user-agent': '[replace with your user agent]',
     }
 
     response = requests.get(f'https://untappd.com/beer/top_rated?type={beer_type}',headers=headers,)
@@ -48,7 +48,7 @@ def get_styles():
         'sec-fetch-dest': 'image',
         'sec-fetch-mode': 'no-cors',
         'sec-fetch-site': 'cross-site',
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
+        'user-agent': '[replace with your user agent]',
     }
 
     response = requests.get(f'https://untappd.com/beer/top_rated',headers=headers,)
